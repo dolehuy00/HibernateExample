@@ -25,7 +25,7 @@ public class HibernateEx {
             factory = new Configuration().configure().buildSessionFactory();
         } catch (Throwable e) {
             System.err.println("Failed"+ e);
-//            throw new ExceptionInInitializerError(e);
+            throw new ExceptionInInitializerError(e);
         }
         HibernateEx hibernateEx = new HibernateEx();
         hibernateEx.listDepartment();
