@@ -43,7 +43,7 @@ public class HibernateEx {
                 System.err.println("StartDate: "+department.getStartDate());
                 System.err.println("Budget: "+department.getBudget());  
             }
-            tx.commit();
+            tx.commit();///////////////////////
         } catch (HibernateException e) {
             if(tx!=null) tx.rollback();
             e.printStackTrace();
