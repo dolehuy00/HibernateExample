@@ -4,10 +4,6 @@
  */
 package hibernateex;
 
-/**
- *
- * @author PC
- */
 public class Department {
     private int departmentID;
     private String name;
