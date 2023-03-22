@@ -3,7 +3,7 @@ package hibernateex;
 
 
 
-
+///////////////
 
 
 public class Department {
